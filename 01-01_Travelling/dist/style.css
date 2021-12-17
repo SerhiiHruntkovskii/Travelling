@@ -1,0 +1,182 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head-block {
+  width: 100%;
+  height: 820px;
+  position: relative;
+  background: url("/assets/img/header-block-bg-mountains.png");
+  background-size: 100% 100%;
+}
+
+.head-block__title {
+  max-width: 360px;
+  width: 100%;
+  height: 26px;
+  margin: 0 auto;
+  padding-top: 314px;
+}
+
+.head-block__title h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  color: #fff;
+  text-align: center;
+}
+
+.head-block__search-bar {
+  max-width: 653px;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 52px;
+  background-color: white;
+}
+
+.head-block__search-bar .search-bar__input {
+  width: 495px;
+  height: 100%;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #5474FD;
+  border: 1.5px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btn span {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.search-bar__btn {
+  width: 150px;
+  height: 60px;
+  position: relative;
+}
+
+.search-bar__btn .btn-title {
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 21px;
+  left: 35px;
+}
+
+.search-bar__btn .btn-title span {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+}
+
+.search-bar__btn img {
+  width: 22px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  left: 105px;
+}
+
+.head-block__scroll-down {
+  margin: 0 auto;
+  margin-top: 107px;
+  width: 123px;
+  height: 26px;
+  position: relative;
+}
+
+.head-block__scroll-down img {
+  width: 17px;
+  height: 11px;
+  position: absolute;
+  top: 25px;
+  left: 45px;
+}
+
+.head-block__scroll-down .scroll-down__title {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+}
+
+.head-block__nav {
+  background-color: #5474FD;
+}
+
+.nav-container {
+  width: 100%;
+  height: 83px;
+  margin-top: 152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-container .nav-logo {
+  width: 196px;
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container .nav-menu__item {
+  padding-left: 20px;
+}
+
+.nav-container .nav-menu__item a {
+  text-decoration: none;
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main-logo span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
