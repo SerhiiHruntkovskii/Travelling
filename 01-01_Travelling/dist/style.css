@@ -11,7 +11,7 @@ body {
 
 .head-block {
   width: 100%;
-  height: 820px;
+  height: 816px;
   position: relative;
   background: url("/assets/img/header-block-bg-mountains.png");
   background-size: 100% 100%;
@@ -68,6 +68,10 @@ body {
 .btn span {
   color: #fff;
   text-transform: uppercase;
+}
+
+.btn-bg {
+  background: linear-gradient(45deg, #496bfe 42%, #5474fd 42%);
 }
 
 .search-bar__btn {
@@ -128,7 +132,7 @@ body {
 
 .nav-container {
   width: 100%;
-  height: 83px;
+  height: 79px;
   margin-top: 152px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,5 +182,276 @@ body {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   color: #fff;
+}
+
+/* travelling-reasons */
+.reasons-block {
+  width: 100%;
+  height: 685px;
+  background: url("/assets/img/why-choose-us-bg.png");
+  background-size: 100% 100%;
+}
+
+.reasons-block__descr {
+  padding-top: 183px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.descr-text {
+  width: 560px;
+}
+
+.descr-text h3 {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.descr-text p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+  letter-spacing: 1.6px;
+}
+
+.descr-img {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.descr-img img {
+  width: 350px;
+  height: 220px;
+}
+
+.descr-img img:first-child {
+  margin-bottom: 10px;
+}
+
+.descr-img img:last-child {
+  margin-left: 100px;
+}
+
+.descr-text__btn {
+  width: 228px;
+  height: 63px;
+  border: none;
+}
+
+.descr-text__btn span {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.2px;
+}
+
+/* travelling-algorythm */
+.algorythm-block {
+  height: 338px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.algorythm-block__scheme {
+  max-width: 1005px;
+  height: 95px;
+  margin: 0 auto;
+  padding-top: 48px;
+  background: url("/assets/img/algorythm-lines.svg") no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.scheme-icons {
+  width: 800px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.scheme-icons .icon {
+  background: #333333;
+  border: 0.1875em solid #333333;
+  /* TODO change color #333333 */
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.scheme-icons .icon img {
+  width: 60px;
+  height: 59px;
+}
+
+.scheme-title {
+  width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.scheme-title__text {
+  padding-top: 35px;
+}
+
+.scheme-title__text span {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+
+/* hotel-block */
+.hotel-block,
+.coast-block {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hotel-block {
+  background: url("/assets/img/hotel-block-spain.png");
+  background-size: 100% 100%;
+}
+
+.hotel-block__item {
+  margin-top: 229px;
+  margin-left: 15px;
+}
+
+.booking-item {
+  width: 540px;
+  height: 371px;
+  background-color: rgba(35, 35, 35, 0.9);
+}
+
+.booking-item .booking-item__inside-item {
+  margin: 46px 30px 0 30px;
+}
+
+.booking-item .booking-item__inside-item h4 {
+  padding-top: 47px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+
+.booking-item .booking-item__inside-item span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #E8E8E8;
+}
+
+.booking-item .booking-item__inside-item p {
+  padding-bottom: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+
+.booking-item .booking-item__inside-item .inside-item__btn {
+  width: 228px;
+  height: 63px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.booking-item .booking-item__inside-item .inside-item__btn span {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #fff;
+}
+
+.coast-block {
+  background: url("/assets/img/hotel-block-sea-coast.png");
+  background-size: 100% 100%;
+}
+
+.coast-block__item {
+  margin: 230px 0 0 585px;
 }
 /*# sourceMappingURL=style.css.map */

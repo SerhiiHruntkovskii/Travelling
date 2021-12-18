@@ -16,7 +16,7 @@ body {
 
 .head-block {
     @include full-width;
-    height: 820px;
+    height: 816px;
     position: relative;
 
     background: url("/assets/img/header-block-bg-mountains.png");
@@ -75,6 +75,24 @@ body {
     }
 }
 
+.btn-bg {
+    background: -webkit-linear-gradient(
+        45deg,
+        rgb(73, 107, 254) 42%,
+        rgb(84, 116, 253) 42%
+    );
+    background: -moz-linear-gradient(
+        45deg,
+        rgb(73, 107, 254) 42%,
+        rgb(84, 116, 253) 42%
+    );
+    background: linear-gradient(
+        45deg,
+        rgb(73, 107, 254) 42%,
+        rgb(84, 116, 253) 42%
+    );
+}
+
 .search-bar__btn {
     width: 150px;
     height: 60px;
@@ -131,7 +149,7 @@ body {
 
 .nav-container {
     @include full-width;
-    height: 83px;
+    height: 79px;
     margin-top: 152px;
     display: flex;
     align-items: center;
@@ -171,4 +189,234 @@ body {
     letter-spacing: 2.4px;
     text-transform: uppercase;
     color: $text-white-color;
+}
+
+/* travelling-reasons */
+
+.reasons-block {
+    @include full-width;
+    height: 685px;
+
+    background: url("/assets/img/why-choose-us-bg.png");
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.reasons-block__descr {
+    padding-top: 183px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.descr-text {
+    width: 560px;
+
+    & h3 {
+        @include font-aleo;
+        @include font-normal;
+        font-size: 36px;
+        line-height: 26px; 
+        color: $text-white-color; 
+    }
+
+    & p {
+        @include font-josefin;
+        @include font-normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: $text-light-gray-color; 
+        letter-spacing: 1.6px;
+    }
+}
+
+.descr-img {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+
+    & img {
+        width: 350px;
+        height: 220px;
+
+        &:first-child {
+            margin-bottom: 10px;
+        }
+
+        &:last-child {
+            margin-left: 100px;
+        }
+    }
+}
+
+.descr-text__btn {
+    width: 228px;
+    height: 63px;
+    border: none;
+
+    & span {
+        @include font-aleo;
+        font-size: 16px;
+        line-height: 26px;
+        align-items: center;
+        letter-spacing: 1.2px;
+    }
+}
+
+/* travelling-algorythm */
+
+.algorythm-block {
+    height: 338px;
+    @include full-width;
+    @include margin-auto;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.algorythm-block__scheme {
+    max-width: 1005px;
+    height: 95px;
+    @include margin-auto;
+    padding-top: 48px;
+    background: url("/assets/img/algorythm-lines.svg") no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scheme-icons {
+    width: 800px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    & .icon {
+        background: #333333;
+        border: 0.1875em solid #333333; /* TODO change color #333333 */
+        border-radius: 50%;
+        height: 5em;
+        width: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .icon img {
+        width: 60px;
+        height: 59px;
+        
+    }
+}
+
+.scheme-title {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scheme-title__text {
+    padding-top: 35px;
+
+
+    & span {
+        @include font-aleo;
+        @include font-normal;
+        font-size: 36px;
+        line-height: 26px;
+        color: $text-light-gray-color;
+
+    }
+}
+
+/* hotel-block */
+
+.hotel-block,
+.coast-block {
+    @include full-width;
+    height: 700px;
+    display: flex;
+}
+
+.hotel-block {
+    background: url("/assets/img/hotel-block-spain.png");
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.hotel-block__item {
+    margin-top: 229px;
+    margin-left: 15px;
+}
+
+.booking-item {
+    width: 540px;
+    height: 371px;
+    
+    background-color: rgba(35, 35, 35, 0.9);
+
+    & .booking-item__inside-item {
+        margin: 46px 30px 0 30px;
+
+        & h4 {
+            padding-top: 47px;
+            @include font-josefin;
+            @include font-normal;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: 1.5px;
+            color: $text-light-gray-color;
+        }
+
+        & span {
+            @include font-josefin;
+            @include font-normal;
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: $text-light-gray-color;
+        }
+
+        & p {
+            padding-bottom: 25px;
+            @include font-josefin;
+            @include font-normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: $text-light-gray-color;
+        }
+
+        & .inside-item__btn {
+            width: 228px;
+            height: 63px;
+            
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & span {
+            @include font-aleo;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: $text-white-color;
+            }
+        }
+    }
+}
+
+.coast-block {
+    background: url("/assets/img/hotel-block-sea-coast.png");
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.coast-block__item {
+    margin: 230px 0 0 585px;
 }
