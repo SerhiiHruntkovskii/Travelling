@@ -1,0 +1,124 @@
+/* 
+    1920
+    1600
+    1280
+    1024
+    768
+    640
+    320
+*/
+
+@media screen and (max-width: 1920px) {
+
+    .container {
+        max-width: 1114px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+    }
+
+    .nav-container {
+        margin-top: 153px;
+    }
+
+    .head-block__form {
+        margin: 0 auto;
+        margin-top: 45px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+
+    .container {
+        width: calc(100%-1114px);
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+    }
+
+    .head-block__form {
+        margin: 0 auto;
+        margin-top: 45px;
+        padding: 0;
+    }
+
+    .nav-container {
+        margin-top: 153px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .nav-container {
+        margin-top: 153px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-logo {
+        padding: 0 15px 0 15px;
+    }
+
+    .reasons-block__descr {
+        padding-top: 10px;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .descr-text {
+        text-align: center;
+    }
+
+    .descr-text h3 {
+        margin-bottom: 10px;
+    }
+
+    .descr-text__btn {
+        margin-top: 15px;
+    }
+
+    .descr-img {
+        width: 710px;
+        padding-top: 45px;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .descr-img img:last-child {
+        margin-left: 10px;
+    }
+
+    .hotel-block__item,
+    .coast-block__item {
+        margin: 230px 45px 0 45px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .feedback-block__title h3 {
+        padding-top: 10px;
+    }
+
+    .feedback-block__comment {
+        padding: 0px 25px 0 25px;
+        height: 630px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .algorythm-block {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+}
