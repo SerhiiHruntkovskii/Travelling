@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .container {
@@ -90,6 +90,13 @@ body {
   cursor: pointer;
 }
 
+.head-form__button :hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: blue;
+  font-weight: bold;
+}
+
 .button-btn {
   margin-left: 20px;
   font-family: 'Aleo', serif;
@@ -127,7 +134,7 @@ body {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   font-weight: bold;
-  color: white;
+  color: blue;
 }
 
 .btn span {
@@ -227,7 +234,7 @@ body {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   font-weight: bold;
-  color: white;
+  color: blue;
 }
 
 .nav-container .nav-menu__item a {
@@ -523,7 +530,7 @@ body {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   font-weight: bold;
-  color: white;
+  color: blue;
 }
 
 .booking-item .booking-item__inside-item .inside-item__btn span {

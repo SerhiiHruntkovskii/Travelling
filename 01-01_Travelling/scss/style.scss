@@ -84,6 +84,12 @@ body {
     background: $bg-blue-color;
     box-sizing: border-box;
     cursor: pointer;
+
+    & :hover {
+        transition-duration: 0.3s;
+        color: blue;
+        font-weight: bold;
+    }
 }
 .button-btn {
     margin-left: 20px;
@@ -114,7 +120,7 @@ body {
     & :hover {
         transition-duration: 0.3s;
         font-weight: bold;
-        color: white;
+        color: blue;
     }
 
     & span {
@@ -213,7 +219,7 @@ body {
             transform: scale(2.5);
             transition-duration: 0.3s;
             font-weight: bold;
-            color: white;
+            color: blue;
         }
     }
 
@@ -450,7 +456,7 @@ body {
             & :hover {
                 transition-duration: 0.3s;
                 font-weight: bold;
-                color: white;
+                color: blue;
             }
 
             & span {

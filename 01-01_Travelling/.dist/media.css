@@ -14,7 +14,7 @@
         max-width: 1114px;
         width: 100%;
         margin: 0 auto;
-        padding: 0 15px 0 15px;
+        padding: 0;
     }
 
     .nav-container {
@@ -31,9 +31,9 @@
 @media screen and (max-width: 1600px) {
 
     .container {
-        width: calc(100%-1114px);
+        width: 100%;
         margin: 0 auto;
-        padding: 0 15px 0 15px;
+        padding: 0;
     }
 
     .head-block__form {
@@ -48,6 +48,11 @@
 }
 
 @media screen and (max-width: 1280px) {
+
+    .container {
+        width: calc(100%-60px);
+        margin: 0 0 0;
+    }
 
     .nav-container {
         margin-top: 153px;
@@ -114,11 +119,160 @@
 
 @media screen and (max-width: 1024px) {
 
+    .container {
+        width: calc(100%-60px);
+        padding: 0;
+    }
+
     .algorythm-block {
         display: none;
     }
 }
 
 @media screen and (max-width: 850px) {
+
+    .head-block__search-bar {
+        padding-right: 55px;
+    }
+
+    .head-block__form,
+    .head-form__input {
+        width: 250px;
+    }
+
+    .head-block__form {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .head-form__input {
+        border: 3px solid #fff;
+        letter-spacing: 0;
+    }
+
+    .head-form__input,
+    .head-form__button {
+        border-radius: 3px;
+    }
+
+    .head-form__button {
+        margin-top: 10px;
+    }
+
+    .nav-logo,
+    .nav-menu {
+        padding: 0 25px 0 25px;
+    }
+
+    .descr-img {
+        justify-content: center;
+    }
+
+    .descr-img img:last-child {
+        display: none;
+    }
+
+    .feedback-block__comment {
+        padding: 0px 225px 0 225px;
+    }
+
+    .feedback-block__comment img {
+        width: 235px;
+        height: 155px;
+    }
+
+    .feedback-block__comment .comment-text,
+    .feedback-block__comment .comment-text .comment-text__container {
+        width: 300px;
+        height: 62%;
+        background-color: #333;
+    }
+
+    .feedback-block__comment .comment-text .comment-text__container {
+        width: 280px;
+    }
+
+    .feedback-block__comment .comment-text .comment-text__container {
+        padding: 10px;
+    }
+
+    .feedback-block__comment .comment-text .comment-text__container .comment-text__title {
+        padding-top: 0; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .head-block__title,
+    .head-block__search-bar,
+    .head-block__scroll-down {
+        padding-right: 0;
+    }
+    .head-block__scroll-down {
+        width: 106px;
+    }
+
+
+    .nav-container .nav-menu {
+        max-width: 300px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .booking-item {
+        width: 300px;
+    }
+
+    .booking-item .booking-item__inside-item {
+        margin: 0 15px 0 15px;
+    }
+
+    .booking-item .booking-item__inside-item p {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .nav-container .nav-logo {
+        width: 170px;
+        padding-left: 0px;
+    }
+
+    .nav-container .nav-menu {
+        display: none;
+    }
+
+    .reasons-block__descr .descr-text {
+        width: 300px;
+    }
+
+    .descr-img {
+        padding-top: 12px;
+    }
+
+    .descr-img img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .feedback-block__comment {
+        padding: 0;
+    }
+
+    .feedback-block__title {
+        width: 300px;
+    }
+
+    .feedback-block__title h3 {
+        font-size: 26px;
+        line-height: 26px;
+    }
 
 }
